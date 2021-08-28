@@ -17,7 +17,6 @@ public class Base {
                 "src/main/resources/chromedriver");
 
         driver=new ChromeDriver();
-
         driver.get("https://sonuc.osym.gov.tr/SonucSec.aspx");
 
         Select select=new Select(driver.findElement(By.id("cmbSinavTipi")));
